@@ -73,30 +73,104 @@ var subTotal = totalItem1 + totalItem2;
 var totalCost = subTotal + shippingCharges;
 
 // Display the receipt
-document.write("<h2>Shopping Cart</h2>");
+document.write("<h2>7: Shopping Cart</h2>");
 document.write("Price of item 1 is " + priceItem1 + "<br>Quantity of item 1 is " + qtyItem1+"<br>");
 document.write("Price of item 2 is " + priceItem2 + "<br>Quantity of item 2 is " + qtyItem2+"<br>");
 document.write("Shipping Charges: " + shippingCharges + "<br><br>");
 document.write("Total cost of your order is " + totalCost);
 
 
+// Store total marks and marks obtained by the student
+var totalMarks = 980 // Example: total marks
+var marksObtained = 804; // Example: marks obtained
+
+// Compute the percentage
+var percentage = (marksObtained / totalMarks) * 100;
+
+// Display the result
+document.write("<h2>8: Mark Sheet</h2>");
+document.write("Total Marks: " + totalMarks + "<br>");
+document.write("Marks Obtained: " + marksObtained + "<br>");
+document.write("Percentage: " + percentage.toFixed(2) + "%");
 
 
 
+        // Store the amount in USD and Saudi Riyals
+        var dollars = 10;
+        var riyals = 25;
+
+        // Perform the conversion in a single expression
+        var totalInPKR = (dollars * 104.80) + (riyals * 28);
+
+        // Display the result
+        document.write("<h2>9: Currency in PKR</h2>");
+        document.write("Total Currency in PKR: " + totalInPKR);
 
 
 
+// Initialize a variable with a number
+var number = 10; // Example: initial number
+
+// Perform all calculations in a single expression
+var result = ((number + 5) * 10) / 2;
+
+// Display the result
+document.write("<h2>10: Arithmetic Sequence</h2>");
+document.write("Initial Number: " + number + "<br>");
+document.write("Result after operations: " + result);
 
 
+// Store the current year and birth year
+var currentYear = 2016; // Example: current year
+var birthYear = 1992;   // Example: birth year
+
+// Calculate the two possible ages
+var age1 = currentYear - birthYear;
+var age2 = age1 - 1;  // This accounts for the possibility of not having had their birthday yet this year
+
+// Display the result
+document.write("<h2>11: Age Calculator</h2>");
+document.write("Current Year: " +currentYear+"<br>");
+document.write("Birth Year: " +birthYear+"<br>");
+document.write("Your Age is: "+age1);
 
 
+// Store the radius of the circle
+var radius = 20; // Example: radius of the circle
+
+// Constants
+var pi = 3.142;
+
+// Calculate the circumference (C = 2 * π * r)
+var circumference = 2 * pi * radius;
+
+// Calculate the area (A = π * r^2)
+var area = pi * radius * radius;
+
+// Display the results
+document.write("<h2>12: The Geometrizer</h2>");
+document.write("The radius is: " + radius + "<br>");
+document.write("The circumference is: " + circumference.toFixed(2) + "<br>");
+document.write("The area is: " + area.toFixed(2));
 
 
+// Store the favorite snack, current age, maximum age, and amount per day
+var favoriteSnack = "chocolate chip";  // Example: favorite snack
+var currentAge = 15;                  // Example: current age
+var maxAge = 65;                      // Example: maximum age
+var amountPerDay = 3;                 // Example: estimated amount per day
 
+// Calculate the total number of snacks for the rest of life
+var yearsRemaining = maxAge - currentAge;
+var totalSnacks = yearsRemaining * 365 * amountPerDay;
 
-
-
-
+// Display the result
+document.write("<h2>13: The Lifetime Supply Calculator</h2><br><br>");
+document.write("Favourite Snack: "+favoriteSnack+"<br>");
+document.write("Current age: "+currentAge+"<br>");
+document.write("Estimated Maximum Age: "+maxAge+"<br>");
+document.write("Amount of snacks per day: "+amountPerDay+"<br>");
+document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maxAge + ".");
 
 
 
