@@ -51,11 +51,33 @@ fahrenheit = 70;
 c = (70-32)*5/9;
 f = (25*9/5)+32;
 
-document.write(celsius+"°C is "+f+"°F<br>");
+document.write("6: The Temperature Converter<br> "+celsius+"°C is "+f+"°F<br>");
 document.write(fahrenheit+"°F is "+c+"°C<br>");
 
 
+// Store prices of items
+var priceItem1 = 650; // Price of item 1
+var priceItem2 = 100; // Price of item 2
 
+// Store ordered quantities of items
+var qtyItem1 = 3; // Quantity of item 1
+var qtyItem2 = 7; // Quantity of item 2
+
+// Store shipping charges
+var shippingCharges = 100;
+
+// Compute total cost
+var totalItem1 = priceItem1 * qtyItem1;
+var totalItem2 = priceItem2 * qtyItem2;
+var subTotal = totalItem1 + totalItem2;
+var totalCost = subTotal + shippingCharges;
+
+// Display the receipt
+document.write("<h2>Shopping Cart</h2>");
+document.write("Price of item 1 is " + priceItem1 + "<br>Quantity of item 1 is " + qtyItem1+"<br>");
+document.write("Price of item 2 is " + priceItem2 + "<br>Quantity of item 2 is " + qtyItem2+"<br>");
+document.write("Shipping Charges: " + shippingCharges + "<br><br>");
+document.write("Total cost of your order is " + totalCost);
 
 
 
