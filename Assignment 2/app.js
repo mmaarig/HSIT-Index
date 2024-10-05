@@ -21,9 +21,3 @@ document.write("Yah! I can write HTML content through JavaScript");
 
 let symbol = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 alert(symbol);
-
-
-// alert("Error! Please enter a valid password");
-// alert("Welcome to JS Land...\nHappy Coding!");
-// alert("Welcome to JS Land...");
-// alert("Happy Coding!");
