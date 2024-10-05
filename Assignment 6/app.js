@@ -56,7 +56,7 @@ if (number === "" || number === null) {
 number = parseInt(number);
 
 // Display the multiplication table
-document.write("<br><br><b>5</b>:<h2>Multiplication Table of " + number + "</h2>");
+document.write("<br><br><b>5:</b><h2>Multiplication Table of " + number + "</h2>");
 for (var i = 1; i <= 10; i++) {
     document.write(number + " x " + i + " = " + (number * i) + "<br>");
 }
@@ -81,7 +81,7 @@ var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
 var percentage = (totalObtainedMarks / totalMarks) * 100;
 
 // e) Display the result in a table
-document.write("<br><br><b>7: </b><h2>Result Sheet:</h2>");
+document.write("<br><br><b>6: </b><h2>Result Sheet:</h2>");
 document.write("<table border='1' cellpadding='10'>");
 document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
 document.write("<tr><td>" + subject1 + "</td><td>" + totalMarksPerSubject + "</td><td>" + obtainedMarks1 + "</td></tr>");
